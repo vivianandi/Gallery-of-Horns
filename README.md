@@ -1,7 +1,7 @@
 # LHR
 ## LHR Monday Lab Class 1 
 
-![LHR Mon](../Gallery-of-Horns/src/assets/LHR%20Mon.png)
+![LHR Mon](../Gallery-of-Horns/assets/LHR%20Mon.png)
 
 
 
