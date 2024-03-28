@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header>
-      <h1> 301 is cool </h1>
+      <h1> Gallery of Horns </h1>
     </header>
   )
 }

@@ -1,17 +1,16 @@
-import Header from './components/Header.jsx';
-import Content from './components/Gallery.jsx';
-import Footer from './components/Footer.jsx';
-
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 
 function App() {
-
-
   return (
-    <>
-      <h1>hello</h1>
-
-    </>
-  )
+    <div className="main-container">
+      <Header />
+      <Gallery />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
