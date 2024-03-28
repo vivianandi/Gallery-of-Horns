@@ -1,7 +1,7 @@
 # LHR
 ## LHR Monday Lab Class 1 
 
-![LHR Mon](../assets/LHRMon.png)
+![LHR Mon](/assets/LHRMon.png)
 
 
 
