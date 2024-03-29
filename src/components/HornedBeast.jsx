@@ -1,29 +1,27 @@
 import React, { useState } from 'react';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
-function HornedBeast(props) {
-  // State to track the number of favorites
+function HornedBeast({ title, imageUrl, description }) {
   const [favorites, setFavorites] = useState(0);
 
-  // Function to handle favorite click
-  const handleFavoriteClick = () => {
+  const addFavorite = () => {
     setFavorites(favorites + 1);
   };
 
-  return (
-    <div className="horned-beast">
-      <h2>{props.title}</h2>
-      <img
-        src={props.imageUrl}
-        alt={props.title}
-        onClick={handleFavoriteClick} // Add click event handler to image
-      />
-      <p>{props.description}</p>
+  const handleImageClick = () => {
+    addFavorite(); // Increment the counter when the image is clicked
+  };
 
-      {/* Display the number of favorites */}
-      <div className="favorite-container">
-        ❤️ <span className="favorite-count">{favorites}</span>
-      </div>
-    </div>
+  return (
+    <Card style={{ width: '18rem', margin: '10px' }}>
+      <Card.Img variant="top" src={imageUrl} alt={title} onClick={handleImageClick} style={{ cursor: 'pointer' }} />
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{description}</Card.Text>
+        <Button variant="primary" onClick={addFavorite}>❤️ {favorites}</Button>
+      </Card.Body>
+    </Card>
   );
 }
 

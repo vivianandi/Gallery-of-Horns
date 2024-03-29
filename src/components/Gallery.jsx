@@ -1,20 +1,20 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import data from '../data.json'; // Import JSON data
+import beasts from '../data.json'; // Import the 'beasts' array from data.json
 
-function Gallery() {
+const Gallery = () => {
   return (
-    <div>
-      {data.map((beast) => (
+    <div className="gallery-container">
+      {beasts.map((beast, index) => (
         <HornedBeast
-          key={beast._id}
+          key={index}
           title={beast.title}
-          imageUrl={beast.image_url} // Pass imageUrl prop
+          imageUrl={beast.image_url}
           description={beast.description}
         />
       ))}
     </div>
   );
-}
+};
 
 export default Gallery;

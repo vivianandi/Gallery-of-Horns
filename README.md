@@ -4,6 +4,7 @@
 ![LHR Mon](/assets/LHRMon.png)
 
 ## LHR Tuesday Lab Class 2
+![LHR Tues](/assets/LHRTues.png)
 
 # Time Estimates
 ## Lab 2 
@@ -27,9 +28,9 @@ Actual time needed to complete: 20 min
 
 ## Feature 3: Bootstrap
 Estimate of time needed to complete: 30 min
-Start time:
-Finish time: 
-Actual time needed to complete: 
+Start time: 9:00 CT
+Finish time: 9:20 CT
+Actual time needed to complete: 20 min only to install bootstrap
 
 # React + Vite
 
