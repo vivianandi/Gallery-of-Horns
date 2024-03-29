@@ -38,10 +38,10 @@ Actual time needed to complete: 20 min only to install bootstrap
 ## Lab 3 - Wednesday
 
 ## Feature #1: Display a Modal
-Estimate of time needed to complete: 30 min
-Start time: 
-Finish time: 
-Actual time needed to complete: 
+Estimate of time needed to complete: 1 hour
+Start time: 11:20 CT
+Finish time: 12:12
+Actual time needed to complete: 1 hourish
 
 # React + Vite
 
