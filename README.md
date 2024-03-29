@@ -3,8 +3,34 @@
 
 ![LHR Mon](/assets/LHRMon.png)
 
+## LHR Tuesday Lab Class 2
+![LHR Tues](/assets/LHRTues.png)
 
+# Time Estimates
+## Lab 2 
+**Format**
+**Estimate of time needed to complete: _____**
+**Start time: _____**
+**Finish time: _____**
+**Actual time needed to complete: _____**
 
+## Feature #1: Display Images
+Estimate of time needed to complete: 30min
+Start time: 8:22 CT
+Finish time:  8:40 CT
+Actual time needed to complete: 20 min
+
+## Feature #2: Allow Users to Favorite Individual Beasts
+Estimate of time needed to complete: 30 min
+Start time: 8:40 CT
+Finish time: 8:59 CT
+Actual time needed to complete: 20 min
+
+## Feature 3: Bootstrap
+Estimate of time needed to complete: 30 min
+Start time: 9:00 CT
+Finish time: 9:20 CT
+Actual time needed to complete: 20 min only to install bootstrap
 
 # React + Vite
 

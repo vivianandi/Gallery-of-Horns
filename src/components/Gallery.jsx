@@ -1,22 +1,20 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import beasts from '../data.json'; // Import the 'beasts' array from data.json
 
-function Gallery() {
+const Gallery = () => {
   return (
-    <div>
-      <HornedBeast
-        title="Markhor"
-        imageUrl="https://modernfarmer.com/wp-content/uploads/2014/08/saiga.jpg"
-        description="Markhor."
-      />
-
-      <HornedBeast
-        title="Addax"
-        imageUrl="https://modernfarmer.com/wp-content/uploads/2014/08/28476658_9c97f35096_o.jpg"
-        description="Addax"
-      />
+    <div className="gallery-container">
+      {beasts.map((beast, index) => (
+        <HornedBeast
+          key={index}
+          title={beast.title}
+          imageUrl={beast.image_url}
+          description={beast.description}
+        />
+      ))}
     </div>
   );
-}
+};
 
 export default Gallery;

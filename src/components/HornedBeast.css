@@ -1,0 +1,45 @@
+/* hornedbeast.css */
+/* Styles for the container of each HornedBeast */
+.horned-beast {
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+/* Styles for the image of each HornedBeast */
+.horned-beast img {
+  width: 100%;
+  /* Ensure images fill their container */
+  height: 200px;
+  /* Set fixed height for all images */
+  object-fit: cover;
+  /* Maintain aspect ratio and cover the container */
+  border-radius: 5px;
+}
+
+/* Styles for the title of each HornedBeast */
+.horned-beast h2 {
+  font-size: 1.5rem;
+  /* Increase font size for better readability */
+  margin-bottom: 10px;
+  color: #212529;
+  /* Use Bootstrap's text color */
+}
+
+/* Styles for the description of each HornedBeast */
+.horned-beast p {
+  font-size: 1rem;
+  color: #6c757d;
+  /* Use Bootstrap's muted text color */
+}
+
+.heart-icon {
+  color: red;
+  font-size: 20px;
+}
+
+.favorite-container {
+  display: flex;
+  align-items: center;
+}
