@@ -7,7 +7,7 @@
 ![LHR Tues](/assets/LHRTues.png)
 
 ## LHR Tuesday Lab Class 3
-![LHR Wed](/assets/)
+![LHR Wed](/assets/LHRWed.png)
 
 # Time Estimates
 ## Lab 2 - Tues
