@@ -6,8 +6,11 @@
 ## LHR Tuesday Lab Class 2
 ![LHR Tues](/assets/LHRTues.png)
 
+## LHR Tuesday Lab Class 3
+![LHR Wed](/assets/)
+
 # Time Estimates
-## Lab 2 
+## Lab 2 - Tues
 **Format**
 **Estimate of time needed to complete: _____**
 **Start time: _____**
@@ -31,6 +34,14 @@ Estimate of time needed to complete: 30 min
 Start time: 9:00 CT
 Finish time: 9:20 CT
 Actual time needed to complete: 20 min only to install bootstrap
+
+## Lab 3 - Wednesday
+
+## Feature #1: Display a Modal
+Estimate of time needed to complete: 30 min
+Start time: 
+Finish time: 
+Actual time needed to complete: 
 
 # React + Vite
 
