@@ -1,16 +1,16 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import beasts from '../data.json'; // Import the 'beasts' array from data.json
 
-const Gallery = () => {
+const Gallery = ({ beasts, handleShow }) => {
   return (
     <div className="gallery-container">
-      {beasts.map((beast, index) => (
+      {beasts.map((beast) => (
         <HornedBeast
-          key={index}
+          key={beast._id}
           title={beast.title}
           imageUrl={beast.image_url}
           description={beast.description}
+          handleClick={() => handleShow(beast)}
         />
       ))}
     </div>
