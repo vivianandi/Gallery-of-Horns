@@ -9,6 +9,9 @@
 ## LHR Tuesday Lab Class 3
 ![LHR Wed](/assets/LHRWed.png)
 
+## LHR Tuesday Lab Class 4
+![LHR Wed](/assets/LHRTr.png)
+
 # Time Estimates
 ## Lab 2 - Tues
 **Format**
@@ -42,6 +45,14 @@ Estimate of time needed to complete: 1 hour
 Start time: 11:20 CT
 Finish time: 12:12
 Actual time needed to complete: 1 hourish
+
+## Lab 4 - Thursday
+
+Feature 1. Filter by Numbers of Horns
+Estimate of time needed to complete: 1 hour
+Start time: 7:55 PST
+Finish time: 8:30
+Actual time needed to complete: 30 min
 
 # React + Vite
 

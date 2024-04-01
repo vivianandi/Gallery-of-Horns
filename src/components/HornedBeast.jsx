@@ -11,7 +11,13 @@ function HornedBeast({ title, imageUrl, description, handleClick }) {
 
   return (
     <Card style={{ width: '18rem', margin: '10px' }}>
-      <Card.Img variant="top" src={imageUrl} alt={title} onClick={handleClick} style={{ cursor: 'pointer' }} />
+      <Card.Img
+        variant="top"
+        src={imageUrl}
+        alt={title}
+        onClick={handleClick}
+        style={{ cursor: 'pointer', width: '100%', height: '200px' }} // Add width and height attributes
+      />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
